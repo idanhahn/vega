@@ -44,4 +44,4 @@ def convert_epub(input_file_path):
     for t in text:
         output_txt_file.write(t)
     output_txt_file.close()
-    return input_file_path.filename + '.txt'
+    return input_file_path + '.txt'
